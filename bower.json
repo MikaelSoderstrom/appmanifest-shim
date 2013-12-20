@@ -1,0 +1,19 @@
+{
+  "name": "appmanifest-shim",
+  "version": "0.0.1",
+  "authors": [
+    "Mikael Soderstrom <mikael.soderstrom@live.se>"
+  ],
+  "description": "Makes it possible to use appmanifest in browsers that don´t support it.",
+  "keywords": [
+    "appmanifest"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
