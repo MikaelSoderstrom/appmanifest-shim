@@ -12,6 +12,7 @@
   "keywords": [
     "appmanifest"
   ],
+  "repository": "https://github.com/MikaelSoderstrom/appmanifest-shim.git",
   "author": "Mikael Söderström <mikael.soderstrom@live.se>",
   "license": "BSD-2-Clause",
   "devDependencies": {

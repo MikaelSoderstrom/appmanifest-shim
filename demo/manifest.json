@@ -1,0 +1,18 @@
+﻿{
+  "name": "Example",
+  "url": "/start.html",
+  "mode": "standalone",
+  "icons": [{
+      "src": "icon/lowres",
+      "sizes": "64x64",
+      "type": "image/webp"
+    }, {
+      "src": "icon/hd_small",
+      "density": "2",
+      "sizes": "64x64"
+    }, {
+      "src": "icon/hd_hi",
+      "density": "2",
+      "sizes": "128x128"
+    }]
+}
