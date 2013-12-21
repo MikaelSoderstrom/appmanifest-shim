@@ -26,8 +26,7 @@ module.exports = function (grunt) {
             },
             all: [
                 'Gruntfile.js',
-                '<%= options.app %>/*.js',
-                '<%= options.app %>/modules/**/*.js',
+                'src/**/*.js',
             ]
         },
         uglify: {
@@ -35,11 +34,9 @@ module.exports = function (grunt) {
                 options: {
                     report: 'min'
                 },
-                files: {
-                    '<%= options.dist %>/require.js': [
-                        '<%= options.app %>/bower_components/requirejs/require.js'
-                    ]
-                }
+                files: [
+                    'src/**/*.js'
+                ]
             }
         }
     });
